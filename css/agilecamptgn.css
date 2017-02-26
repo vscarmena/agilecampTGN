@@ -1,0 +1,40 @@
+body {
+    background: url('../img/full_back_page_bm.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.title-main {
+  margin-bottom: 2em;
+  width: 80%;
+  height: 80%;
+}
+.navbar-fixed-bottom {
+  margin-bottom: 2em;
+}
+a {
+    color: #F1E467;
+    margin: 0.7em;
+}
+a:focus, a:hover {
+    color: #EDDE2E;
+}
+h4 {
+  font-size: 1.2em;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+@media (max-width: 760px) {
+  .title-main {
+    margin-bottom: 2em;
+    width: 60%;
+    height: 60%;
+  }
+}
